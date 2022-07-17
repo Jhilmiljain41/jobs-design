@@ -17,6 +17,10 @@
     top: 70px;
     z-index: 1;
 }
+.position-heading{
+    max-width: 32em;
+    padding-bottom: 80px;
+}
 .items,.items-ex{
     position: relative;
     width: 100%;
@@ -94,4 +98,12 @@
         padding-left: 25px;
         font-size: 12px;
     }   
+}
+@media (max-width:766px) {
+    #position .position-list{
+        display: none;
+    }
+    .position-heading{
+        padding-bottom: 45px;
+    }
 }
