@@ -24,6 +24,7 @@
     border-bottom: #d3d9df 1px solid;
     text-decoration: none;
     color: black;
+    margin-bottom: 12px;
 }
 .items:hover{
     color: inherit;
@@ -62,4 +63,35 @@
     padding-right: 18px;
     font-weight: 500;
     font-size: 18px;
+}
+@media  (max-width: 830px) {
+    .items{
+        flex-wrap: wrap;
+        padding-bottom: 16px;
+        height: 90px;
+    }
+    .items-title{
+        font-size: 18px;
+    } 
+    .items-count{
+        font-size: 18px;
+    } 
+    .items-location{
+        font-size: 14px;
+    }   
+}
+@media  (max-width: 740px) {
+    .items-title{
+        width: auto;
+        font-size: 16px;
+    } 
+    .items-count{
+        width: auto;
+        font-size: 16px;
+    } 
+    .items-location{
+        width: auto;
+        padding-left: 25px;
+        font-size: 12px;
+    }   
 }
