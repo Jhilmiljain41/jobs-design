@@ -27,6 +27,10 @@ body{
   padding-top: 48px;
   padding-bottom:48px;
 }
+#banner .btn-primary:hover{
+  box-shadow:  0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  font-size: 25px !important;
+}
 /* consider-section*/
 #consider .div1{
   padding-top:66px;
@@ -147,6 +151,10 @@ body{
 #job-section .jobs{
   padding-top:80px;
   padding-bottom: 80px;
+}
+#job-section .jobs .btn-outline-dark:hover{
+  box-shadow:  0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  font-size: 18px !important;
 }
 #job-section .jobs .div1{
   width: 50%;
