@@ -1,6 +1,7 @@
 body{
   justify-content: center;
   overflow: unset;
+  overflow-x: hidden;
   position: relative;
 }
 #banner, .cards, #steps, .team, .jobs, .perks, #position{
