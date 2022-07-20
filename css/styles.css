@@ -198,9 +198,6 @@ body{
 .team-heading{
   margin-bottom: 60px;
 }
-.team-data{
-  padding: 48px 0px 0px 48px;
-}
 .team-data1{
   position: relative;
     width: 100%;
@@ -213,13 +210,13 @@ body{
 }
 .team-data1 img{
   padding: 5px;
-  box-shadow: 1px 0 4px 4px rgb(0 0 0 / 10%);
+  box-shadow: 1px 0 4px 4px rgba(255, 254, 254, 0.89);
   height: 100%;
   width: auto;
   max-width: none;
 }
 .team-data1 .div-content{
-  padding: 24px 48px;
+  padding: 18px 36px;
 }
 .team-data1 .team-button{
     margin-top: 2px;
@@ -227,9 +224,42 @@ body{
 }
 .team-data1 .team-button .btn{
   padding: 0.5rem  1rem;
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     border-radius: 0.5rem;
 }
+.team-container {
+  position: relative;
+  height: 400px;
+}
+
+.team-card {
+  height: 400px;
+  width: 250px;
+  padding-top: 36px;
+  background-color: #4a1aab;
+  border-radius: 10px;
+  box-shadow: -0.1rem 0 1rem #000;
+/*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.team-card:not(:first-child) {
+    margin-left: -40px;
+}
+
+.team-card:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.team-card:hover ~ .team-card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
 @media screen and (min-width: 1200px) {
   body, #banner,.cards, #steps, .team, .jobs, .perks, #position{
     text-align: auto;
